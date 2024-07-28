@@ -1,0 +1,10 @@
+<mvc:View controllerName="com.demo.demo.controller.Detail"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="Second Page">
+        <content>
+        
+<Button id="_IDGenButton1" text = "Navigate to first Page" press="onPressDetail"/>
+        </content>
+    </Page>
+</mvc:View>

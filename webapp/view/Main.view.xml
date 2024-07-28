@@ -1,0 +1,76 @@
+<mvc:View controllerName="com.demo.demo.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>irctc}">
+        <content>
+<Label id="_IDGenLabel2" text="Sales Document"></Label>
+<Input id="_IDGenInput2" value = "{demomodel>/vbeln}"></Input>
+
+
+<Label  text="Sales Organisation"></Label>
+<Input  value = "{demomodel>/vkorg}"></Input>
+
+
+<Label  text="Distribution Channel"></Label>
+<Input  value = "{demomodel>/vtweg}"></Input>
+
+
+<Label  text="Distribution Channel"></Label>
+<Input  value = "{demomodel>/spart}"></Input>
+
+<Button id="_IDGenButton1" text = "{i18n>submit}" press="submit" />
+<Button id="_IDGenButton2" text = "Ok" press="ok" />
+
+
+<Table  items="{Test>/}">
+
+<columns>
+
+<Column >
+
+<Text text = "sales document"/>
+
+</Column>
+
+
+
+<Column >
+
+<Text text = "sales Organisation"/>
+
+</Column>
+
+<Column >
+
+<Text text = "Distribution Channel"/>
+
+</Column>
+
+
+<Column >
+
+<Text text = "Division"/>
+
+</Column>
+
+
+</columns>
+
+
+<ColumnListItem >
+
+<Text text = "{Test>vbeln}"/>
+<Text text = "{Test>vkorg}"/>
+<Text text = "{Test>vtweg}"/>
+<Text text = "{Test>spart}"/>
+
+
+</ColumnListItem>
+
+
+
+</Table>
+
+        </content>
+    </Page>
+</mvc:View>

@@ -1,0 +1,9 @@
+<mvc:View controllerName="com.demo.demo.controller.Third"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="Second Page">
+        <content>
+<Button text = "Navigate to First View" press="onPressThird"/>
+        </content>
+    </Page>
+</mvc:View>
